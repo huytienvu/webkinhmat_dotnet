@@ -1,0 +1,29 @@
+# Thư mục cấu hình ẩn của Visual Studio (chứa cache, lịch sử mở file, v.v.)
+.vs/
+
+# Các thư mục chứa kết quả biên dịch (build) của từng project (API_Kinhmat, BUS, DAL, Model)
+# Mỗi lần chạy code, Visual Studio sẽ tự sinh ra các file .dll, .exe trong đây nên không cần đẩy lên Git.
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Các file lưu tùy chọn cá nhân của người dùng trên máy (như cấu hình màn hình, điểm breakpoint)
+*.user
+*.suo
+*.sln.docstates
+
+# Nếu dự án có dùng NuGet Packages thì bỏ qua thư mục này vì Git sẽ tự tải lại khi restore project
+packages/
+*.nupkg
+
+# Các file ghi chú lỗi hoặc log trong quá trình chạy
+*.log
+
+# Bỏ qua các file cấu hình chứa chuỗi kết nối DB và thông tin nhạy cảm
+appsettings.json
+appsettings.Development.json
+
+# (Tùy chọn) Nếu trong thư mục wwwroot/images của bạn có lưu ảnh upload thử nghiệm 
+# và bạn không muốn đẩy rác lên Git thì có thể bỏ comment dòng dưới
+# wwwroot/images/product/*
