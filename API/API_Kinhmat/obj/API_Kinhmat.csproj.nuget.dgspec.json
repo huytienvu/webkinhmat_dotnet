@@ -1,0 +1,279 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\API_Kinhmat\\API_Kinhmat.csproj": {}
+  },
+  "projects": {
+    "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\API_Kinhmat\\API_Kinhmat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\API_Kinhmat\\API_Kinhmat.csproj",
+        "projectName": "API_Kinhmat",
+        "projectPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\API_Kinhmat\\API_Kinhmat.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\API_Kinhmat\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\BUS\\BUS.csproj": {
+                "projectPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\BUS\\BUS.csproj"
+              },
+              "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\Model\\Model.csproj": {
+                "projectPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\BUS\\BUS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\BUS\\BUS.csproj",
+        "projectName": "BUS",
+        "projectPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\BUS\\BUS.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\BUS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\DAL\\DAL.csproj"
+              },
+              "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\Model\\Model.csproj": {
+                "projectPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\Model\\Model.csproj": {
+                "projectPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Năm Ba\\Call API\\apikinhmat\\API_CuahangKinhmat_VuTienHuy\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
